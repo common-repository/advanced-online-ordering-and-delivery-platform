@@ -1,0 +1,92 @@
+/* Theme Default */
+
+.default-theme .bg-primary {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0078d4+0,e23744+100 */
+    background: #0078d4;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078d4', endColorstr='#e23744', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    ;
+}
+
+.default-theme .btn-primary {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0078d4+0,e23744+100 */
+    background: #0078d4;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #0078d4 0%, #e23744 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078d4', endColorstr='#e23744', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-color: #0078d4;
+}
+
+.default-theme .btn-primary:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0078d4+0,e23744+100 */
+    background: #0078d4;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #0078d4 0%, #e23744 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #0078d4 0%, #e23744 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #0078d4 0%, #e23744 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078d4', endColorstr='#e23744', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-color: #e23744;
+}
+
+.default-theme .btn-outline-primary {
+    color: #e23744;
+    border-color: #e23744;
+}
+
+.default-theme .btn-outline-primary:hover {
+    color: #ffffff;
+    background: #0078d4;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #0078d4 0%, #e23744 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #0078d4 0%, #e23744 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #0078d4 0%, #e23744 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078d4', endColorstr='#e23744', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-color: #e23744;
+}
+
+.default-theme .text-primary {
+    color: #e23744 !important;
+    text-decoration: none !important;
+}
+
+.default-theme a {
+    color: #e23744;
+    text-decoration: none !important;
+}
+
+.default-theme p {
+    color: #424242;
+    letter-spacing: 0.2px;
+}
+
+.default-theme .btn-link {
+    font-weight: 400;
+    color: #e23744;
+    text-decoration: none !important;
+}
+
+.default-theme .icon {
+    color: #0078d4;
+}
+/* Theme Default ends here */

@@ -1,0 +1,285 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ .app-panel {
+ 	height:100%;
+ }
+ 
+ .menu .main-menu ul li .menu-button {
+   height: 110px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   border-bottom: 1px solid #f3f3f3;
+   color: #3a3a3a;
+   transition: color 300ms;
+   transition: background 300ms; }
+   .menu .main-menu ul li .menu-button:hover, .menu .main-menu ul li .menu-button:focus {
+     color: #145388; }
+     
+ .menu .main-menu ul li.active .menu-button {
+   color: #145388; }
+   
+   
+ul.tabs {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	list-style: none;
+	overflow: hidden;
+  padding: 0;
+}
+ul.tabs li {	
+	float: left;  
+}
+ul.tabs li a {
+	position: relative;
+	display: block;
+	height: 50px;
+	margin-top: 40px;
+	padding: 10px 15px 0 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;	
+	text-decoration: none;
+	color: #ffffff;
+	background: #145388;
+	-webkit-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	        box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	        	border: 0px solid #000000;
+	-webkit-transition: padding 0.2s ease, margin 0.2s ease;
+       -moz-transition: padding 0.2s ease, margin 0.2s ease;
+         -o-transition: padding 0.2s ease, margin 0.2s ease;
+        -ms-transition: padding 0.2s ease, margin 0.2s ease;
+            transition: padding 0.2s ease, margin 0.2s ease;
+}
+.tabs li:first-child a {
+	z-index: 3;
+  -webkit-border-top-left-radius: 8px;
+-moz-border-radius-topleft: 8px;
+border-top-left-radius: 8px;
+}
+.tabs li:nth-child(2) a {
+	z-index: 2;
+}
+.tabs li:last-child a {
+	z-index: 1;
+  -webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.8);
+	   -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.8);
+	        box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.8);
+  -webkit-border-top-right-radius: 8px;
+-moz-border-radius-topright: 8px;
+border-top-right-radius: 8px;
+}
+ul.tabs li a:hover {
+	margin: 35px 0 0 0;
+	padding: 10px 15px 5px 15px;
+}
+ul.tabs li a.active {
+	margin: 30px 0 0 0;
+	padding: 10px 15px 10px 15px;
+	background: #ffffff;
+	color: #145388;
+	/*color: #ff6831;*/
+	z-index: 4;
+	outline: none;
+}
+.group:before,
+.group:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.group:after {
+    clear: both;
+}
+.data-content-area {
+  width: 100%;
+  min-height: 200px;
+  margin: 0 auto;
+  background: #ffffff;
+-webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.5);
+   	   -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.5);
+   	        box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.5);
+  -webkit-border-bottom-right-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+
+.btn i {
+margin:0 2px;	
+}
+.navbar-logo {
+	width:200px;
+}
+.navbar-header{
+	flex:1;
+	text-align:center;
+}
+.navbar-right {
+	width:200px;
+	flex-basis:unset !important;
+}
+
+.app-panel ul li {
+	margin-bottom:0;
+}
+
+.content-container {
+	padding:10px;
+}
+
+.card {
+	max-width:unset;
+}
+
+table.dataTable td {
+	padding:10px 10px;
+}
+
+.data-form-search {
+	width:300px;
+}
+
+.data-button-area {
+	flex:1;
+	text-align:right;
+}
+
+td.td-shuffle {
+	width:24px;
+}
+
+.data-content-area {
+	padding:20px;
+}
+.connection-header {
+	flex:1;
+}
+
+.sync-icon {
+	font-size:2.0rem;
+	color:#145388;
+}
+
+.editable-submit, .editable-cancel {
+	padding:4px; !important;
+	font-size:30px;
+	line-height:1.0rem;
+}
+.marchant-location-text {
+	font-size:0.9rem;
+}
+
+td input.form-control {
+	width:100%;
+}
+.model-data .modal-dialog {
+	width:100%;
+	max-width:100%;	
+}
+
+ /* The switch - the box around the slider */
+.label-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.label-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.label-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.label-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .label-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .label-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .label-slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.label-slider.round {
+  border-radius: 28px;
+}
+
+.label-slider.round:before {
+  border-radius: 50%;
+} 
+
+.edit-category-image {
+	width:300px;
+	height:300px;
+}
+.edit-category-image .card{
+	padding:0;
+}
+.edit-category-image .card-body {
+	padding:0;
+}
+.edit-item-box {
+	width:200px;
+	height:250px;
+	border-radius:5px;
+	border:1px solid #c8c8c8;
+	display:inline-block;
+}
+.edit-item-image .card, .edit-item-image .card-body{
+	padding:0;
+}
+
+.edit-item-image img {
+	width:200px;
+	height:155px;
+	text-align:center;
+	border-radius:5px 5px 0 0;
+}
+
+.message_textarea {
+	width:100%;
+	height:600px;
+}
